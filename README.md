@@ -13,9 +13,12 @@ Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange 
 cd /picles
 ```
 ---
+## kill
+**Função:** Esse comando, é usado para encerrar processos, ele pode ser útil para interromper operações criadas pelo usuário ou iniciadas automaticamente.
+
 **Exemplo:**
 ```bash
-kill random_tsk
+kill
 ```
 ---
 ## su
