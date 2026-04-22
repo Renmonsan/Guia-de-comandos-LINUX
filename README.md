@@ -3,16 +3,20 @@
 Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização
 
 
-**Gerenciamento de arquivos
+**Gerenciamento de arquivos**
  ## cd 
 **Função:** esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado  
 **Exemplo:** 
-```bash
+'''bash
 cd /picles
-```
+'''
 
-- **mkdir** – Cria um novo diretório.  
-  Exemplo: `mkdir /picles /teste`  
+## mkdir 
+**Função:** Cria um diretorio(pasta) novo para organizar arquivos no sistema.  
+  **Exemplo:** 
+```bash
+mkdir /picles /teste
+```
 
 - **pwd** – Mostra o caminho do diretório atual.  
   Exemplo: `pwd`  
