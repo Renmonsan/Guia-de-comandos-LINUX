@@ -20,11 +20,23 @@ mkdir /picles /teste
 ```
 ---
 
-## pwd
-**Função:** Mostra o caminho atual para o diretório atual e seu nome.  
-  **Exemplo:**
+##rmdir
+**Função:** Exclui permanentemente um diretório que esteja vazio.
+
+**Exemplo:**
 ```bash
-pwd
+rmdir -p
+``` 
+
+
+## pwd
+**Função:** Mostra o caminho atual para o diretório atual e seu nome.
+-L: imprime o conteúdo da variável do ambiente;
+-P: mostra o caminho real do diretório atual sem links simbólicos. 
+  
+**Exemplo:**
+```bash
+pwd -L
 ```
 ---  
 
@@ -134,3 +146,4 @@ reboot
 **Exemplo:** 
 ```bash]
 shutdown -h now
+```
