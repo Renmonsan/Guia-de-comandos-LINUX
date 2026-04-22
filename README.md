@@ -31,11 +31,6 @@ rmdir -p
 
 ## pwd
 **Função:** Mostra o caminho atual para o diretório atual e seu nome.
----
--L: imprime o conteúdo da variável do ambiente;
----
--P: mostra o caminho real do diretório atual sem links simbólicos. 
-  
 **Exemplo:**
 ```bash
 pwd -L
