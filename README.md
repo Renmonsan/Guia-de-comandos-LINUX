@@ -14,7 +14,7 @@ cd /picles
 ---
 ## kill
 **Função:** Esse comando, é usado para encerrar processos, ele pode ser útil para interromper operações criadas pelo usuário por acidente
-<AUDGAHJDG>
+
 **Exemplo:**
 ```bash
 kill random_tsk
