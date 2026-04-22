@@ -1,15 +1,31 @@
 # Guia de comandos LINUX
 
-Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização
+Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização.
 
 
 **Gerenciamento de arquivos**
  ## cd 
-**Função:** esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado.
+**Função:** Esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado.
 
 **Exemplo:** 
 ```bash
 cd /picles
+```
+---
+## kill
+**Função:** Esse comando, é usado para encerrar processos, ele pode ser útil para interromper operações criadas pelo usuário por acidente
+<AUDGAHJDG>
+**Exemplo:**
+```bash
+kill random_tsk
+```
+---
+## su
+**Função:** permite mudar a identidade atual para um outro usuario sem deslogar.
+
+**Exemplo:**
+```bash
+su - (muda para o superusuário root com o ambiente dele)
 ```
 ---
 
@@ -38,6 +54,7 @@ rmdir -p
 ```bash
 find [diretório] [opção] [ação]
 ```
+---
 
 ## locate
 **Função:** Semelhante ao comado find, o locate é mais menos preciso e mais rápido, pois para funcionar ele necessita de um banco de dados alimentado.
@@ -181,6 +198,6 @@ reboot
 **Função:** Encerra todos os processos e desliga a máquina.
 
 **Exemplo:** 
-```bash]
+```bash
 shutdown -h now
 ```
