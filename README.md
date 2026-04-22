@@ -150,7 +150,7 @@ touch receita_de_bolo_da_vovo.txt
 ```
 
 ---
-# Leitura e edição**
+# Leitura e edição
 ---
 ## less
 **Função:** Exibe grandes arquivos página por página
