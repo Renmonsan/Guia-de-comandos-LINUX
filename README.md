@@ -6,6 +6,7 @@ Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange 
 **Gerenciamento de arquivos**
  ## cd 
 **Função:** esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado.
+
 **Exemplo:** 
 ```bash
 cd /picles
@@ -13,8 +14,9 @@ cd /picles
 ---
 
 ## mkdir 
-**Função:** Cria um diretorio(pasta) novo para organizar arquivos no sistema.  
-  **Exemplo:** 
+**Função:** Cria um diretorio(pasta) novo para organizar arquivos no sistema. 
+
+**Exemplo:**
 ```bash
 mkdir /picles /teste
 ```
@@ -22,6 +24,7 @@ mkdir /picles /teste
 
 ## rmdir
 **Função:** Exclui permanentemente um diretório que esteja vazio.(
+
 **Exemplo:**
 ```bash
 rmdir -p
@@ -30,6 +33,7 @@ rmdir -p
 
 ## find
 **Função:** Encontrar arquivo e diretório específico de acordo com um critério selecionado, como tipo ou tamanho.
+
 **Exemplo:**
 ```bash
 find [diretório] [opção] [ação]
@@ -37,6 +41,7 @@ find [diretório] [opção] [ação]
 
 ## locate
 **Função:** Semelhante ao comado find, o locate é mais menos preciso e mais rápido, pois para funcionar ele necessita de um banco de dados alimentado.
+
 **Exemplo:**
 ```bash
 locate arquivo teste.txt
@@ -45,6 +50,7 @@ locate arquivo teste.txt
 
 ## head
 **Função:** Permite que as 10 primeiras linhas de um arquivo sejam exibidas e visualizadas.
+
 **Exemplo:**
 ```bash
 head picles/teste
@@ -53,6 +59,7 @@ head picles/teste
 
 ## pwd
 **Função:** Mostra o caminho atual para o diretório atual e seu nome.
+
 **Exemplo:**
 ```bash
 pwd -L
@@ -61,7 +68,8 @@ pwd -L
 
 ## cat
 **Função:** Mostra o conteúdo de um arquivo do tipo binário e em texto diretamente no terminal.  
-  **Exemplo:**
+
+**Exemplo:**
 ```bash
 cat letra_da_musica_do_chitaozinho_e_chororo.txt
 ```
@@ -69,7 +77,8 @@ cat letra_da_musica_do_chitaozinho_e_chororo.txt
 
 ## cp
 **Função:** Copia arquivos ou diretórios de um destino para o outro.  
- **Exemplo:**
+
+**Exemplo:**
 ```bash
 cp letra_da_musica_do_chitaozinho_e_chororo.txt /picles
 ```
@@ -77,6 +86,7 @@ cp letra_da_musica_do_chitaozinho_e_chororo.txt /picles
 
 ## mv
 **Função:** Transporta o arquivo para outro local ou altera seu nome.  
+
 **Exemplo:**
 ```bash
 mv receita_de_bolo_antiga.txt receita_de_bolo_novo.txt
@@ -85,6 +95,7 @@ mv receita_de_bolo_antiga.txt receita_de_bolo_novo.txt
 
 ## rm 
 **Função:** Remove arquivos ou diretórios permanentemente.  
+
 **Exemplo:**
 ```bash
 rm -rf /picles /teste
@@ -92,8 +103,8 @@ rm -rf /picles /teste
 ---
 
 ## touch
-**Função:**
-**Exemplo**Cria arquivos novos ou atualiza a data/hora de modificação.  
+**Função:** Cria arquivos novos ou atualiza a data/hora de modificação.  
+
 **Exemplo:**
 ```bash
 touch receita_de_bolo_da_vovo.txt
@@ -106,7 +117,8 @@ touch receita_de_bolo_da_vovo.txt
 ---
 
 ## df
-**Função:**Mostra os detalhes do armazenamento de cada partição montada.  
+**Função:** Mostra os detalhes do armazenamento de cada partição montada.  
+
 **Exemplo:**
 ```bash
 df -h
@@ -115,6 +127,7 @@ df -h
 
 ## free 
 **Função:** Mostra detalhes sobre o uso da memória ram( mostra o uso, quanto está livre e total do sistema). 
+
 **Exemplo:**
 ```bash
 free
@@ -123,6 +136,7 @@ free
 
 ## os
 **Função:** Lista os processos que estão em execução no momento.  
+
 **Exemplo:**
 ```bash
 ps
@@ -131,6 +145,7 @@ ps
 
 ## grep
 **Função:** Filtra linhas que contenha a palavra ou frase pesquisada,  
+
 **Exemplo:** 
 ```bash
 grep "erro" sistema.log
@@ -143,6 +158,7 @@ grep "erro" sistema.log
 
 ## chmod
 **Função:** Define quem pode ler, gravar ou executar um arquivo ou diretório.
+
 **Exemplo:** 
 ```bash
 chmod 755 roteiro.sh
@@ -155,6 +171,7 @@ chmod 755 roteiro.sh
 
 ## reboot 
 **Função:** Reinicia o computador.  
+
 **Exemplo:** 
 ```bash
 reboot
@@ -162,6 +179,7 @@ reboot
 
 ## shutdown 
 **Função:** Encerra todos os processos e desliga a máquina.
+
 **Exemplo:** 
 ```bash]
 shutdown -h now
