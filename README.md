@@ -33,7 +33,7 @@ rmdir -p
 **Função:** Mostra o caminho atual para o diretório atual e seu nome.
 **Exemplo:**
 ```bash
-pwd -L
+pwd -l
 ```
 ---  
 
