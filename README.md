@@ -75,14 +75,15 @@ locate arquivo teste.txt
 ---
 
 ## head
-**Função:** Permite que as 10 primeiras linhas de um arquivo sejam exibidas e visualizadas.
+**Função:** Permite que as 10 primeiras linhas de um arquivo sejam exibidas e visualizadas, pode ser alterado para exibir uma quantidade diferente de linhas.
 
 **Exemplo:**
 ```bash
 head picles/teste
 ```
-
-
+---
+## tail
+**Função:** Semelhante ao comando head, o comando tail mostra as últimas 10 linhas, e também pode mostrar um nú
 ## pwd
 **Função:** Mostra o caminho atual para o diretório atual e seu nome.
 
@@ -137,9 +138,15 @@ touch receita_de_bolo_da_vovo.txt
 ```
 
 ---
-
 **Leitura e edição**
+---
+## less
+**Função:** Exibe grandes arquivos página por página
 
+**Exemplo:**
+```bash
+cat picles.txt
+```
 ---
 
 ## df
