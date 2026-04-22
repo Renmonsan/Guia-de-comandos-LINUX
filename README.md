@@ -191,6 +191,37 @@ grep "erro" sistema.log
 ```bash
 kill
 ```
+## wc
+**Função:** Wc é uma sigla para Word count, ela tem a função de contar palavras, linhas ou caracteres de um arquivo.
+
+**Exemplo:**
+```bash
+wc picles.txt
+```
+---
+## diff
+**Função:** Esse comando é capaz de compararar 2 diferentes arquivos, linha por linha.
+Ele é capaz de mostrar quais linhas foram alteradas ou removidas de um arquivo.
+
+**Exemplo:**
+```bash
+diff picles1.txt picles2.txt
+```
+##zip
+**Função:** Com este comando é possível compactar um arquivo ou diretório de forma rápida.
+
+**Exemplo:**
+```bash
+zip picles.txt
+```
+---
+## unzip
+**Função:** Comando com função contrária ao zip, ele pode descompactar arquivos ou diretórios de forma rápida
+
+**Exemplo:**
+```bash
+unzip [opcao] picles.zip
+```
 ---
 **Permissões e usuários**
 ---
@@ -203,11 +234,8 @@ kill
 chmod 755 roteiro.sh
 ```  
 ---
-
 **Sistema (energia e reinicialização)**
-
 ---
-
 ## reboot 
 **Função:** Reinicia o computador.  
 
