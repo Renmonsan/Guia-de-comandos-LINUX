@@ -1,7 +1,8 @@
 # Guia de comandos LINUX
 
 
-Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
+Este guia contém 30 comandos diferentes que são frequente utilizados no GNU/Linux, com eles é possível obter maior domínio sobre o sistema, garantindo que o usuário possua maior personalização e segurança em sua máquina.
+Esta lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
 
 
 **Gerenciamento de arquivos**
@@ -258,7 +259,7 @@ shutdown -h now
 ```
 ---
 ## uptime
-**Função:**Mostra quanto tempo o sistema permanece em execução, a carga e quantos usuários estão logados no momento.
+**Função:** Mostra quanto tempo o sistema permanece em execução, a carga e quantos usuários estão logados no momento.
 
 **Exemplo:**
 ```bash
