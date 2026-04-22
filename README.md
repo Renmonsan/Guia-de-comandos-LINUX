@@ -99,7 +99,7 @@ ps
 ---
 
 ## grep
-**Função:**Filtra linhas que contenha a palavra ou frase pesquisada,  
+**Função:** Filtra linhas que contenha a palavra ou frase pesquisada,  
 **Exemplo:** 
 ```bash
 grep "erro" sistema.log
@@ -111,7 +111,7 @@ grep "erro" sistema.log
 ---
 
 ## chmod
-**Função:**Define quem pode ler, gravar ou executar um arquivo ou diretório.
+**Função:** Define quem pode ler, gravar ou executar um arquivo ou diretório.
 **Exemplo:** 
 ```bash
 chmod 755 roteiro.sh
@@ -123,15 +123,14 @@ chmod 755 roteiro.sh
 ---
 
 ## reboot 
-**Função:**Reinicia o computador.  
+**Função:** Reinicia o computador.  
 **Exemplo:** 
 ```bash
 reboot
 ```  
 
 ## shutdown 
-**Função:**Encerra todos os processos e desliga a máquina.
+**Função:** Encerra todos os processos e desliga a máquina.
 **Exemplo:** 
 ```bash]
 shutdown -h now
-```
