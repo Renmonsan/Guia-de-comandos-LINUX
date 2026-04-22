@@ -28,11 +28,21 @@ pwd
 ```
 ---  
 
-- **cat** – Exibe o conteúdo de arquivos.  
-  Exemplo: `cat letra_da_musica_do_chitaozinho_e_chororo.txt`  
+## cat
+**Função:** Mostra o conteúdo de um arquivo do tipo binário e em texto diretamente no terminal.  
+  **Exemplo:**
+```bash
+cat letra_da_musica_do_chitaozinho_e_chororo.txt
+```
+--- 
 
-- **cp** – Copia arquivos ou diretórios.  
-  Exemplo: `cp letra_da_musica_do_chitaozinho_e_chororo.txt /picles`  
+## cp
+**Função:** Cópia arquivos ou diretorios de um destino para o outro.  
+  **Exemplo:**
+```bash
+cp letra_da_musica_do_chitaozinho_e_chororo.txt /picles
+```
+--- 
 
 - **mv** – Move ou renomeia arquivos/diretórios.  
   Exemplo: `mv receita_de_bolo_antiga.txt receita_de_bolo_novo.txt`  
@@ -71,4 +81,5 @@ pwd
   Exemplo: `reboot`  
 
 - **shutdown** – Desliga o computador.  
-  Exemplo: `shutdown -h now`  
+  Exemplo: `shutdown -h now`
+  
