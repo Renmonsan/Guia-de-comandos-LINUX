@@ -20,7 +20,7 @@ mkdir /picles /teste
 ```
 ---
 
-##rmdir
+## rmdir
 **Função:** Exclui permanentemente um diretório que esteja vazio.(
 **Exemplo:**
 ```bash
@@ -33,6 +33,7 @@ rmdir -p
 **Exemplo:**
 ```bash
 find [diretório] [opção] [ação]
+```
 
 ##locate
 **Função:** Semelhante ao comado find, o locate é mais menos preciso e mais rápido, pois para funcionar ele necessita de um banco de dados alimentado.
