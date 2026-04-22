@@ -5,7 +5,7 @@ Este guia contém 30 comandos diferentes que são frequente utilizados no GNU/Li
 Esta lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
 
 
-# Gerenciamento de arquivos**
+# Gerenciamento de arquivos
  ## cd 
 **Função:** Esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado.
 
@@ -246,7 +246,7 @@ unzip [opcao] picles.zip
 chmod 755 roteiro.sh
 ```  
 ---
-# Sistema (energia e reinicialização)**
+# Sistema (energia e reinicialização)
 ---
 ## reboot 
 **Função:** Reinicia o computador.  
