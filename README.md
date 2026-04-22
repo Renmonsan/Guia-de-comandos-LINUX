@@ -35,7 +35,7 @@ rmdir -p
 find [diretório] [opção] [ação]
 ```
 
-##locate
+## locate
 **Função:** Semelhante ao comado find, o locate é mais menos preciso e mais rápido, pois para funcionar ele necessita de um banco de dados alimentado.
 **Exemplo:**
 ```bash
