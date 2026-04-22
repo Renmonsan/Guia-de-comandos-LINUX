@@ -10,6 +10,7 @@ Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange 
 ```bash
 cd /picles
 ```
+---
 
 ## mkdir 
 **Função:** Cria um diretorio(pasta) novo para organizar arquivos no sistema.  
@@ -17,9 +18,15 @@ cd /picles
 ```bash
 mkdir /picles /teste
 ```
+---
 
-- **pwd** – Mostra o caminho do diretório atual.  
-  Exemplo: `pwd`  
+## pwd
+**Função:** Mostra o caminho atual para o diretório atual e seu nome.  
+  **Exemplo:**
+```bash
+pwd
+```
+---  
 
 - **cat** – Exibe o conteúdo de arquivos.  
   Exemplo: `cat letra_da_musica_do_chitaozinho_e_chororo.txt`  
