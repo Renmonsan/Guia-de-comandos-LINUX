@@ -5,7 +5,7 @@ Este guia contém 30 comandos diferentes que são frequente utilizados no GNU/Li
 Esta lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
 
 
-**Gerenciamento de arquivos**
+# Gerenciamento de arquivos**
  ## cd 
 **Função:** Esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado.
 
@@ -50,7 +50,7 @@ rmdir -p
 ---
 
 ## find
-**Função:** Encontrar arquivo e diretório específico de acordo com um critério selecionado, como tipo ou tamanho.
+**Função:** Esse comando permite encontrar um arquivo e diretório específico de acordo com um critério selecionado, como tipo ou tamanho.
 
 **Exemplo:**
 ```bash
@@ -58,7 +58,13 @@ find [diretório] [opção] [ação]
 ```
 ---
 ## stat
-**Função:**
+**Função:** Esse comando permite que o usuário visualize informações detalhadas sobre determinado arquivo.
+
+**Exemplo:**
+```bash
+stat picles.txt
+```
+---
 
 **Exemplo:**
 ```bash
@@ -144,7 +150,7 @@ touch receita_de_bolo_da_vovo.txt
 ```
 
 ---
-**Leitura e edição**
+# Leitura e edição**
 ---
 ## less
 **Função:** Exibe grandes arquivos página por página
@@ -229,7 +235,7 @@ zip picles.txt
 unzip [opcao] picles.zip
 ```
 ---
-**Permissões e usuários**
+#Permissões e usuários**
 ---
 
 ## chmod
@@ -240,7 +246,7 @@ unzip [opcao] picles.zip
 chmod 755 roteiro.sh
 ```  
 ---
-**Sistema (energia e reinicialização)**
+# Sistema (energia e reinicialização)**
 ---
 ## reboot 
 **Função:** Reinicia o computador.  
@@ -266,4 +272,6 @@ shutdown -h now
 uptime
 ```
 ---
+# Conclusão
+Os comandos utilizados atuam como grantes facilitadores de tarefas em uma máquina, com este guia foi possível compreender a importância de conhecer os comandos utilizados no sistemas GNU/LINUX, além de conhecer suas diferentes utilizações no cotidiano.
 
