@@ -75,7 +75,7 @@ locate arquivo teste.txt
 ---
 
 ## head
-**Função:** Permite que as 10 primeiras linhas de um arquivo sejam exibidas e visualizadas, pode ser alterado para exibir uma quantidade diferente de linhas.
+**Função:** Permite que as 10 primeiras linhas de um arquivo sejam exibidas e visualizadas, a quantidade de linhas exibidas pode ser alterada.
 
 **Exemplo:**
 ```bash
@@ -83,7 +83,12 @@ head picles/teste
 ```
 ---
 ## tail
-**Função:** Semelhante ao comando head, o comando tail mostra as últimas 10 linhas, e também pode mostrar um nú
+**Função:** Semelhante ao comando head, o comando tail mostra as últimas 10 linhas, a quantidade de linhas exibidas também pode ser alterada.
+**Exemplo:**
+```bash
+picles.txt
+```
+---
 ## pwd
 **Função:** Mostra o caminho atual para o diretório atual e seu nome.
 
@@ -207,7 +212,7 @@ Ele é capaz de mostrar quais linhas foram alteradas ou removidas de um arquivo.
 ```bash
 diff picles1.txt picles2.txt
 ```
-##zip
+## zip
 **Função:** Com este comando é possível compactar um arquivo ou diretório de forma rápida.
 
 **Exemplo:**
