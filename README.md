@@ -7,9 +7,9 @@ Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange 
  ## cd 
 **Função:** esse comando faz com quem vc acesse um diretório caso você tenha a permissão para acessá-lo, serve para alterar o diretório atual de trabalho para o destino informado  
 **Exemplo:** 
-'''bash
+```bash
 cd /picles
-'''
+```
 
 ## mkdir 
 **Função:** Cria um diretorio(pasta) novo para organizar arquivos no sistema.  
