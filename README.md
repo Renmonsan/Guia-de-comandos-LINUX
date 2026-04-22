@@ -1,5 +1,5 @@
 # Guia de comandos LINUX
->E
+
 
 Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização.
 
