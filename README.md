@@ -1,7 +1,7 @@
 # Guia de comandos LINUX
 
 
-Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização.
+>Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. ![Linux]([URL da imagem](https://logosmarcas.net/wp-content/uploads/2020/09/Linux-Logo-650x366.png))
 
 
 **Gerenciamento de arquivos**
