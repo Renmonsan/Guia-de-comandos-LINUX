@@ -1,7 +1,7 @@
 # Guia de comandos LINUX
 
 
->Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. ![Linux]([URL da imagem](https://logosmarcas.net/wp-content/uploads/2020/09/Linux-Logo-650x366.png))
+Este guia contém 30 comandos diferentes para para o GNU/Linux, a lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
 
 
 **Gerenciamento de arquivos**
@@ -13,9 +13,6 @@
 cd /picles
 ```
 ---
-## kill
-**Função:** Esse comando, é usado para encerrar processos, ele pode ser útil para interromper operações criadas pelo usuário por acidente
-
 **Exemplo:**
 ```bash
 kill random_tsk
@@ -54,6 +51,14 @@ rmdir -p
 **Exemplo:**
 ```bash
 find [diretório] [opção] [ação]
+```
+---
+## stat
+**Função:**
+
+**Exemplo:**
+```bash
+stat picles.txt
 ```
 ---
 
@@ -169,9 +174,15 @@ ps
 grep "erro" sistema.log
 ``` 
 ---
+## kill
+**Função:** Esse comando, é usado para encerrar processos, ele pode ser útil para interromper operações criadas pelo usuário ou iniciadas automaticamente.
 
+**Exemplo:**
+```bash
+kill
+```
+---
 **Permissões e usuários**
-
 ---
 
 ## chmod
@@ -202,3 +213,13 @@ reboot
 ```bash
 shutdown -h now
 ```
+---
+## uptime
+**Função:**Mostra quanto tempo o sistema permanece em execução, a carga e quantos usuários estão logados no momento.
+
+**Exemplo:**
+```bash
+uptime
+```
+---
+
