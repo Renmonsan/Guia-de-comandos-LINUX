@@ -21,19 +21,40 @@ mkdir /picles /teste
 ---
 
 ##rmdir
-**Função:** Exclui permanentemente um diretório que esteja vazio.
-
+**Função:** Exclui permanentemente um diretório que esteja vazio.(
 **Exemplo:**
 ```bash
 rmdir -p
 ``` 
+---
+
+## find
+**Função:** Encontrar arquivo e diretório específico de acordo com um critério selecionado, como tipo ou tamanho.
+**Exemplo:**
+```bash
+find [diretório] [opção] [ação]
+
+##locate
+**Função:** Semelhante ao comado find, o locate é mais menos preciso e mais rápido, pois para funcionar ele necessita de um banco de dados alimentado.
+**Exemplo:**
+```bash
+locate arquivo teste.txt
+```
+---
+
+## head
+**Função:** Permite que as 10 primeiras linhas de um arquivo sejam exibidas e visualizadas.
+**Exemplo:**
+```bash
+head picles/teste
+```
 
 
 ## pwd
 **Função:** Mostra o caminho atual para o diretório atual e seu nome.
 **Exemplo:**
 ```bash
-pwd -l
+pwd -L
 ```
 ---  
 
