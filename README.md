@@ -273,5 +273,5 @@ uptime
 ```
 ---
 # Conclusão
-Os comandos utilizados atuam como grantes facilitadores de tarefas em uma máquina, com este guia foi possível compreender a importância de conhecer os comandos utilizados no sistemas GNU/LINUX, além de conhecer suas diferentes utilizações no cotidiano.
+Os comandos mencionados no guia atuam como grantes facilitadores de tarefas em uma máquina, com ete guia foi possível compreender a importância de conhecer os comandos utilizados no sistemas GNU/LINUX, além de conhecer suas diferentes utilizações no cotidiano.
 
