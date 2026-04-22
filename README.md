@@ -37,49 +37,101 @@ cat letra_da_musica_do_chitaozinho_e_chororo.txt
 --- 
 
 ## cp
-**Função:** Cópia arquivos ou diretorios de um destino para o outro.  
-  **Exemplo:**
+**Função:** Copia arquivos ou diretórios de um destino para o outro.  
+ **Exemplo:**
 ```bash
 cp letra_da_musica_do_chitaozinho_e_chororo.txt /picles
 ```
 --- 
 
-- **mv** – Move ou renomeia arquivos/diretórios.  
-  Exemplo: `mv receita_de_bolo_antiga.txt receita_de_bolo_novo.txt`  
+## mv
+**Função:** Transporta o arquivo para outro local ou altera seu nome.  
+**Exemplo:**
+```bash
+mv receita_de_bolo_antiga.txt receita_de_bolo_novo.txt
+```
+---
 
-- **rm** – Remove arquivos ou diretórios.  
-  Exemplo: `rm -rf /picles /teste`  
+## rm 
+**Função:** Remove arquivos ou diretórios permanentemente.  
+**Exemplo:**
+```bash
+rm -rf /picles /teste
+```  
+---
 
-- **touch** – Cria arquivos novos ou atualiza a data/hora de modificação.  
-  Exemplo: `touch receita_de_bolo_da_vovo.txt`  
+## touch
+**Função:**
+**Exemplo**Cria arquivos novos ou atualiza a data/hora de modificação.  
+**Exemplo:**
+```bash
+touch receita_de_bolo_da_vovo.txt
+```
 
 ---
 
-##Leitura e edição
-- **df** – Mostra detalhes do armazenamento das partições.  
-  Exemplo: `df -h`  
-
-- **free** – Exibe informações sobre uso da memória RAM.  
-  Exemplo: `free`  
-
-- **ps** – Lista processos em execução.  
-  Exemplo: `ps`  
-
-- **grep** – Filtra linhas em arquivos com base em palavras/frases.  
-  Exemplo: `grep "erro" sistema.log`  
+**Leitura e edição**
 
 ---
 
-##Permissões e usuários
-- **chmod** – Define permissões de leitura, escrita e execução.  
-  Exemplo: `chmod 755 roteiro.sh`  
+## df
+**Função:**Mostra os detalhes do armazenamento de cada partição montada.  
+**Exemplo:**
+```bash
+df -h
+```
+---  
+
+## free 
+**Função:** Mostra detalhes sobre o uso da memória ram( mostra o uso, quanto está livre e total do sistema). 
+**Exemplo:**
+```bash
+free
+```
+---  
+
+## os
+**Função:** Lista os processos que estão em execução no momento.  
+**Exemplo:**
+```bash
+ps
+```
+---
+
+## grep
+**Função:**Filtra linhas que contenha a palavra ou frase pesquisada,  
+**Exemplo:** 
+```bash
+grep "erro" sistema.log
+``` 
+---
+
+**Permissões e usuários**
 
 ---
 
-##Sistema (energia e reinicialização)
-- **reboot** – Reinicia o computador.  
-  Exemplo: `reboot`  
+## chmod
+**Função:**Define quem pode ler, gravar ou executar um arquivo ou diretório.
+**Exemplo:** 
+```bash
+chmod 755 roteiro.sh
+```  
+---
 
-- **shutdown** – Desliga o computador.  
-  Exemplo: `shutdown -h now`
-  
+**Sistema (energia e reinicialização)**
+
+---
+
+## reboot 
+**Função:**Reinicia o computador.  
+**Exemplo:** 
+```bash
+reboot
+```  
+
+## shutdown 
+**Função:**Encerra todos os processos e desliga a máquina.
+**Exemplo:** 
+```bash]
+shutdown -h now
+```
