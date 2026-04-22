@@ -235,7 +235,7 @@ zip picles.txt
 unzip [opcao] picles.zip
 ```
 ---
-#Permissões e usuários**
+#Permissões e usuários
 ---
 
 ## chmod
