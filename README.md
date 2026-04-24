@@ -1,7 +1,7 @@
 # Guia de comandos LINUX
 
 
-Este guia contém 30 comandos diferentes que são frequente utilizados no GNU/Linux, com eles é possível obter maior domínio sobre o sistema, garantindo que o usuário possua maior personalização e segurança em sua máquina.
+Este guia feito em markdown contém 30 comandos diferentes que são frequente utilizados no GNU/Linux, com eles é possível obter maior domínio sobre o sistema, garantindo que o usuário possua maior personalização e segurança em sua máquina.
 Esta lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
 
 
@@ -273,5 +273,5 @@ uptime
 ```
 ---
 # Conclusão
-Os comandos mencionados no guia atuam como grantes facilitadores de tarefas em uma máquina, com ete guia foi possível compreender a importância de conhecer os comandos utilizados no sistemas GNU/LINUX, além de conhecer suas diferentes utilizações no cotidiano.
+Os comandos mencionados no guia atuam como grantes facilitadores de tarefas em uma máquina, com ete guia foi possível compreender a importância de conhecer os comandos utilizados no sistemas GNU/LINUX, além de conhecer suas diferentes utilizações que podem ser aplicada no uso cotidiano dos sistema operacional.
 
