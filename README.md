@@ -2,7 +2,7 @@
 
 
 Este guia feito em markdown contém 30 comandos diferentes que são frequente utilizados no GNU/Linux, com eles é possível obter maior domínio sobre o sistema, garantindo que o usuário possua maior personalização e segurança em sua máquina.
-Esta lista abrange comandos de Gerenciamento de arquivos, Leitura e edição, Permissões e usuários e Comandos de energia e reinicialização. 
+Esta lista abrange comandos de Gerenciamento de arquivos, Leitura e edição de arquivos, Permissões de usuários,Comandos de energia e reinicialização. 
 
 
 # Gerenciamento de arquivos
